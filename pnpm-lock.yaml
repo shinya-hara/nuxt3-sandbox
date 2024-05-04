@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      vue-social-sharing:
+        specifier: 4.0.0-alpha4
+        version: 4.0.0-alpha4(vue@3.4.26)
     devDependencies:
       nuxt:
         specifier: ^3.11.2
@@ -3395,6 +3399,11 @@ packages:
     resolution: {integrity: sha512-hKQJ1vDAZ5LVkKEnHhmm1f9pMiWIBNGF5AwU67PdH7TyXCj/a4hTccuUuYCAMgJK6rO/NVYtQIEN3yL8CECa7Q==}
     peerDependencies:
       vue: ^3.2.0
+
+  vue-social-sharing@4.0.0-alpha4:
+    resolution: {integrity: sha512-hMbgpZkY5aRAiznSB/sgzdMVgdSbkmIHEaELX7pUbuUd6KS1Z/GAi7a/q0Qn+GFn0+6qMMvwyp3ZOE0+WYPQ1w==}
+    peerDependencies:
+      vue: ^3.0.0
 
   vue-virtual-scroller@2.0.0-beta.8:
     resolution: {integrity: sha512-b8/f5NQ5nIEBRTNi6GcPItE4s7kxNHw2AIHLtDp+2QvqdTjVN0FgONwX9cr53jWRgnu+HRLPaWDOR2JPI5MTfQ==}
@@ -7446,6 +7455,10 @@ snapshots:
   vue-router@4.3.2(vue@3.4.26):
     dependencies:
       '@vue/devtools-api': 6.6.1
+      vue: 3.4.26
+
+  vue-social-sharing@4.0.0-alpha4(vue@3.4.26):
+    dependencies:
       vue: 3.4.26
 
   vue-virtual-scroller@2.0.0-beta.8(vue@3.4.26):

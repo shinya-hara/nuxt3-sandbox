@@ -1,9 +1,9 @@
-# nuxt3-sandbox
+vue-social-sharing を試す
 
-Nuxt 3 でいろいろ試すサンドボックス環境
+https://github.com/nicolasbeauvais/vue-social-sharing
 
-## ブランチ
+```sh
+npm install --save vue-social-sharing@next
+```
 
-|ブランチ|概要|
-|-|-|
-|feature/shadcn-vue|[shadcn-vue](https://www.shadcn-vue.com/)|
+SNSシェア機能を簡単に実装できるかも
